@@ -4,7 +4,14 @@
 # bundly
 `bundly` is a wrapper over watchify and browserify to make it easy to configure common transforms without having to manually do over and over. It also provides a cache option that will help to make incremental builds without having to rely on the `watch` mode for scenarios where a watch mode is not available. It reduces the build time from several seconds to milliseconds, without relying on a watch mode :)
 
-Features of this module
+## Motivation
+Just wanted to have a good wrapper over browserify/watchify that allow me to make incremental builds even when not using the watch mode.
+And have common module with the set of transforms I usually use everyday already preconfigured. This is part also of my efforts to run away from `gulp` and `grunt` and start embracing the `npm as a build tool` idea.
+
+## Demo
+Simple usage example: [demo](https://github.com/royriojas/bundly-usage-demo)
+
+## Features of this module
 - optional cache mode that will speed up the regular builds (not it watch mode) from several seconds to only milliseconds.
   **DISCLAIMER**: this is done persisting the watchify arguments to disk using the [flat-cache](https://npmjs.org/package/flat-cache) and
   [file-entry-cache](https://npmjs.org/package/file-entry-cache) modules. The best results happen when only a few files were modified. Worse case scenario is when all the files are modified. In average you should experience a very noticeable reduction. As always keep in mind that your mileage may vary.
@@ -26,10 +33,6 @@ Features of this module
 
 - Add the option to generate the minimized version of the file
 - Add the option to add a revision number to the generated **regular** and **min** files.
-
-## Motivation
-Just wanted to have a good wrapper over browserify/watchify that allow me to make incremental builds even when not using the watch mode.
-And have common module with the set of transforms I usually use everyday already preconfigured. This is part also of my efforts to run away from `gulp` and `grunt` and start embracing the `npm as a build tool` idea.
 
 ## Install
 
