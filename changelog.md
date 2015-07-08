@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v1.1.1
+- **Documentation**
+  - Update Readme to add an example of how to use this module - [8f2ced3]( https://github.com/royriojas/bundly/commit/8f2ced3 ), [royriojas](https://github.com/royriojas), 07/07/2015 22:54:02
+
+    
 ## v1.1.0
 - **Build Scripts Changes**
   - Add changelog generation script - [7b4a16b]( https://github.com/royriojas/bundly/commit/7b4a16b ), [royriojas](https://github.com/royriojas), 07/07/2015 22:13:08
