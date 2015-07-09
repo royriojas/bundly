@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v1.1.2
+- **Bug Fixes**
+  - Add missing modules - [36699bd]( https://github.com/royriojas/bundly/commit/36699bd ), [royriojas](https://github.com/royriojas), 08/07/2015 23:10:16
+
+    
 ## v1.1.1
 - **Documentation**
   - Update Readme to add an example of how to use this module - [8f2ced3]( https://github.com/royriojas/bundly/commit/8f2ced3 ), [royriojas](https://github.com/royriojas), 07/07/2015 22:54:02
