@@ -19,7 +19,7 @@ module.exports = {
         banner: '',
         uglify: false,
         separator: '\n\n',
-        useCache: false,
+        useCache: true,
         buildVersion: ''
       }
     };

@@ -4,9 +4,9 @@
   "description": "watchify/browserify wrapper with some useful preconfigured transforms and cache support, to remember the files that were processed and speed up the bundling time",
   "main": "index.js",
   "scripts": {
-    "beautify": "esbeautifier './index.js' './lib/**/*.js' './specs/**/*.js' './src/**/*.js'",
+    "beautify": "esbeautifier -u './index.js' './lib/**/*.js' './specs/**/*.js' './src/**/*.js'",
     "beautify-check": "esbeautifier -k './index.js' './lib/**/*.js' './specs/**/*.js' './src/**/*.js'",
-    "eslint": "eslinter './index.js' './lib/**/*.js' './specs/**/*.js' './src/**/*.js'",
+    "eslint": "eslinter -u './index.js' './lib/**/*.js' './specs/**/*.js' './src/**/*.js'",
     "lint": "npm run beautify && npm run eslint",
     "test": "mocha-runner './specs/**/*.js'",
     "cover": "istanbul cover -x specs/**/*.js mocha-runner './specs/**/*.js' html text-summary",
