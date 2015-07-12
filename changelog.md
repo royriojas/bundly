@@ -1,5 +1,11 @@
 
 # bundly - Changelog
+## v1.1.3
+#### `use-cache` is true by default now
+- **Build Scripts Changes**
+  - activating the incremental build by default (`use-cache` is true by default now) - [295d82f]( https://github.com/royriojas/bundly/commit/295d82f ), [royriojas](https://github.com/royriojas), 11/07/2015 17:51:50
+
+    
 ## v1.1.2
 - **Bug Fixes**
   - Add missing modules - [36699bd]( https://github.com/royriojas/bundly/commit/36699bd ), [royriojas](https://github.com/royriojas), 08/07/2015 23:10:16
