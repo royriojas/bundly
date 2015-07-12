@@ -1,5 +1,15 @@
 
 # bundly - Changelog
+## v1.1.4
+- **Enhancements**
+  - Cache is now enabled by default. - [3ee0e31]( https://github.com/royriojas/bundly/commit/3ee0e31 ), [royriojas](https://github.com/royriojas), 12/07/2015 16:03:20
+
+    In order to clear the cache. Run bundly with cache false
+    
+    ```bash
+    bundly -u false file.js -o output.js
+    ```
+    
 ## v1.1.3
 #### `use-cache` is true by default now
 - **Build Scripts Changes**
