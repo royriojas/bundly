@@ -42,9 +42,11 @@ npm i -D bundly
 
 ## Usage
 
+Here is the output of the --help option:
+
 ```
 `bundly` is a `watchify`/`browserify` wrapper with some useful preconfigured transforms and cache support
-to make it incremental builds even without the watch mode.
+to make it incremental builds even without the watch mode
 
 ========================================================
 Usage: bundly -c bundly.conf.js
@@ -52,7 +54,8 @@ Usage: bundly -c bundly.conf.js
 ========================================================
 
 Options:
-  -u, --use-cache           Whether or not to remember the files and contents and only operate on the changed files to create incremental builds
+  -u, --use-cache           Whether or not to remember the files and contents and only operate on the changed files to create incremental builds. By default
+                            is true - default: true
   -w, --watch               Continuosly watch for changes of the files and do incremental builds
   -m, --minimize            Whether to minimize or not the output or not. By default is `false`. When the flag is set both the non minimified and minified
                             versions will be created

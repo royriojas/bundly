@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "beautify": "esbeautifier -u './index.js' './lib/**/*.js' './specs/**/*.js' './src/**/*.js'",
-    "beautify-check": "esbeautifier -k './index.js' './lib/**/*.js' './specs/**/*.js' './src/**/*.js'",
+    "beautify-check": "esbeautifier -u -k './index.js' './lib/**/*.js' './specs/**/*.js' './src/**/*.js'",
     "eslint": "eslinter -u './index.js' './lib/**/*.js' './specs/**/*.js' './src/**/*.js'",
     "lint": "npm run beautify && npm run eslint",
     "test": "mocha-runner './specs/**/*.js'",
