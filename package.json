@@ -59,7 +59,7 @@
     "read-file": "^0.1.2",
     "require-arr": "^1.0.2",
     "shimixify": "^1.1.2",
-    "simpless": "^1.0.9",
+    "simpless": "^2.0.3",
     "stricterify": "^1.0.3",
     "uglify-js": "^2.4.23",
     "watchify": "^2.6.0",
