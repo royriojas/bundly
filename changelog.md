@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v1.1.5
+- **Build Scripts Changes**
+  - Update simpless dep to get the fix for wrong reporting of errors in required files - [395d494]( https://github.com/royriojas/bundly/commit/395d494 ), [royriojas](https://github.com/royriojas), 13/07/2015 00:17:50
+
+    
 ## v1.1.4
 - **Enhancements**
   - Cache is now enabled by default. - [3ee0e31]( https://github.com/royriojas/bundly/commit/3ee0e31 ), [royriojas](https://github.com/royriojas), 12/07/2015 16:03:20
