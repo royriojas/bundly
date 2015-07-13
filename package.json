@@ -1,6 +1,6 @@
 {
   "name": "bundly",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "watchify/browserify wrapper with some useful preconfigured transforms and cache support, to remember the files that were processed and speed up the bundling time",
   "main": "index.js",
   "scripts": {
