@@ -1,5 +1,11 @@
 
 # bundly - Changelog
+## v2.0.1
+#### cache is on by default
+- **Documentation**
+  - Update Readme to match the latest configuration (cache is on by default) - [13b4a8f]( https://github.com/royriojas/bundly/commit/13b4a8f ), [royriojas](https://github.com/royriojas), 19/07/2015 05:02:24
+
+    
 ## v2.0.0
 - **Refactoring**
   - normalize the transforms configuration and names, remove the unused and rename some config options - [73e80be]( https://github.com/royriojas/bundly/commit/73e80be ), [royriojas](https://github.com/royriojas), 19/07/2015 04:56:48
