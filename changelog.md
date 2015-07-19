@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v2.0.3
+- **Bug Fixes**
+  - include only the files of the type this transform will be applied to - [7116a13]( https://github.com/royriojas/bundly/commit/7116a13 ), [royriojas](https://github.com/royriojas), 19/07/2015 06:18:41
+
+    
 ## v2.0.2
 - **Bug Fixes**
   - properly extend the shims dependencies config - [986bf47]( https://github.com/royriojas/bundly/commit/986bf47 ), [royriojas](https://github.com/royriojas), 19/07/2015 06:06:42
