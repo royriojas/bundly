@@ -1,6 +1,6 @@
 
 # bundly - Changelog
-## HEAD
+## v2.0.5
 - **Bug Fixes**
   - wrong trasnform name for simplessy - [a9bfad2]( https://github.com/royriojas/bundly/commit/a9bfad2 ), [royriojas](https://github.com/royriojas), 19/07/2015 06:50:22
 
