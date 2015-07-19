@@ -428,7 +428,7 @@ module.exports = function ( cli ) {
 
 - in `watch mode` the minified version won't be generated even if `-m` is specified. It is assumed that watch mode is only used for
   development so no need for the min file
-- to destroy the cache and start fresh simply execute the command without the `-u` flag. Cache is only kept if the next run also uses `-u`
+- to destroy the cache and start fresh simply execute the command with the `--no-use-cache` flag.
 
 ## Changelog
 
