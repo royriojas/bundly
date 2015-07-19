@@ -1,5 +1,15 @@
 
 # bundly - Changelog
+## v2.0.0
+- **Refactoring**
+  - normalize the transforms configuration and names, remove the unused and rename some config options - [73e80be]( https://github.com/royriojas/bundly/commit/73e80be ), [royriojas](https://github.com/royriojas), 19/07/2015 04:56:48
+
+    
+#### transforms
+- **Enhancements**
+  - better management of the transforms that are included - [e3d6c92]( https://github.com/royriojas/bundly/commit/e3d6c92 ), [royriojas](https://github.com/royriojas), 17/07/2015 19:38:08
+
+    
 ## v1.1.6
 - **Bug Fixes**
   - fix the compile to less transform that uses simpless - [cafe30b]( https://github.com/royriojas/bundly/commit/cafe30b ), [royriojas](https://github.com/royriojas), 13/07/2015 01:44:10
