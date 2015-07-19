@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v2.0.6
+- **Bug Fixes**
+  - remove excludeExtensions from babelify - [aae15d6]( https://github.com/royriojas/bundly/commit/aae15d6 ), [royriojas](https://github.com/royriojas), 19/07/2015 06:57:37
+
+    
 ## v2.0.5
 - **Bug Fixes**
   - wrong trasnform name for simplessy - [a9bfad2]( https://github.com/royriojas/bundly/commit/a9bfad2 ), [royriojas](https://github.com/royriojas), 19/07/2015 06:50:22
