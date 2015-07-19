@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v2.0.4
+- **Build Scripts Changes**
+  - Update browserify transforms deps - [f60610e]( https://github.com/royriojas/bundly/commit/f60610e ), [royriojas](https://github.com/royriojas), 19/07/2015 06:30:55
+
+    
 ## v2.0.3
 - **Bug Fixes**
   - include only the files of the type this transform will be applied to - [7116a13]( https://github.com/royriojas/bundly/commit/7116a13 ), [royriojas](https://github.com/royriojas), 19/07/2015 06:18:41
