@@ -14,6 +14,7 @@ module.exports = {
         banner: '',
         minimize: false,
         useCache: true,
+        separator: '\n\n',
         revision: ''
       }
     };
