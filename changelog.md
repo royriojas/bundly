@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v2.0.7
+- **Bug Fixes**
+  - add back the separator option removed by mistake - [02e67cf]( https://github.com/royriojas/bundly/commit/02e67cf ), [royriojas](https://github.com/royriojas), 19/07/2015 07:15:30
+
+    
 ## v2.0.6
 - **Bug Fixes**
   - remove excludeExtensions from babelify - [aae15d6]( https://github.com/royriojas/bundly/commit/aae15d6 ), [royriojas](https://github.com/royriojas), 19/07/2015 06:57:37
