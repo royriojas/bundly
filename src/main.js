@@ -1,9 +1,4 @@
-var trim = function ( str ) {
-  return ((str || '').toString()).trim();
-};
-
 module.exports = {
-  dirname: __dirname,
   run: function ( cli ) {
     var path = require( 'path' );
     var nodeProcess = require( '../lib/process' );
@@ -17,10 +12,9 @@ module.exports = {
       options: {
         watch: false,
         banner: '',
-        uglify: false,
-        separator: '\n\n',
+        minimize: false,
         useCache: true,
-        buildVersion: ''
+        revision: ''
       }
     };
 
@@ -38,13 +32,6 @@ module.exports = {
       }
 
       extend( true, bundlyArgs.options, cliOpts );
-      if ( cliOpts.minimize ) {
-        bundlyArgs.options.uglify = true;
-      }
-      var rev = trim( cliOpts.revision );
-      if ( rev ) {
-        bundlyArgs.options.buildVersion = rev;
-      }
     }
 
     var bundly = require( '../index' ).create( {

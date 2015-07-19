@@ -48,7 +48,7 @@ var bundlyProto = extend( dispatchy.create(), {
       };
 
       var _dest = data.dest;
-      var dest = opts.buildVersion ? addVersion( _dest, opts.buildVersion ) : _dest;
+      var dest = opts.revision ? addVersion( _dest, opts.revision ) : _dest;
       dest = path.resolve( dest );
 
       bundler.on( 'bundler:done', function ( e, args ) {
@@ -67,14 +67,14 @@ var bundlyProto = extend( dispatchy.create(), {
           return;
         }
 
-        if ( opts.uglify ) {
+        if ( opts.minimize ) {
           var tStart = Date.now();
 
           var uglify = require( 'uglify-js' );
 
           var result = uglify.minify( args.result, extend( true, {
             mangle: true
-          }, opts.uglify, { fromString: true } ) );
+          }, opts.uglifyConfig, { fromString: true } ) );
 
           var minFile = path.resolve( makeMinName( dest ) );
 
