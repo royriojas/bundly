@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## HEAD
+- **Bug Fixes**
+  - wrong trasnform name for simplessy - [a9bfad2]( https://github.com/royriojas/bundly/commit/a9bfad2 ), [royriojas](https://github.com/royriojas), 19/07/2015 06:50:22
+
+    
 ## v2.0.4
 - **Build Scripts Changes**
   - Update browserify transforms deps - [f60610e]( https://github.com/royriojas/bundly/commit/f60610e ), [royriojas](https://github.com/royriojas), 19/07/2015 06:30:55
