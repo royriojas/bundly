@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v2.0.8
+- **Features**
+  - `beforeTransforms` and `afterTransforms` - [de7b2b2]( https://github.com/royriojas/bundly/commit/de7b2b2 ), [royriojas](https://github.com/royriojas), 20/07/2015 01:33:48
+
+    
 ## v2.0.7
 - **Bug Fixes**
   - add back the separator option removed by mistake - [02e67cf]( https://github.com/royriojas/bundly/commit/02e67cf ), [royriojas](https://github.com/royriojas), 19/07/2015 07:15:30
