@@ -412,6 +412,16 @@ module.exports = function ( cli ) {
         }
       },
 
+      // fired before adding the transforms provided
+      beforeTransforms: function ( b ) {
+
+      },
+
+      // fired after adding the transforms provided
+      afterTransforms: function ( b ) {
+
+      },
+
       preBundleCB: function ( b ) {
         if (debug) {
           cli.log('exposing bar as ./src/bar.js');
