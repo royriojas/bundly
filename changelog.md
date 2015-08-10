@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v2.1.0
+- **Build Scripts Changes**
+  - Update pkg deps and build scripts - [b7f82c9]( https://github.com/royriojas/bundly/commit/b7f82c9 ), [royriojas](https://github.com/royriojas), 09/08/2015 18:33:17
+
+    
 ## v2.0.8
 - **Features**
   - `beforeTransforms` and `afterTransforms` - [de7b2b2]( https://github.com/royriojas/bundly/commit/de7b2b2 ), [royriojas](https://github.com/royriojas), 20/07/2015 01:33:48
