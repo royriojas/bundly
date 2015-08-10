@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v2.1.2
+- **Build Scripts Changes**
+  - update to latest simpless to fix bug in write dep - [455f2e0]( https://github.com/royriojas/bundly/commit/455f2e0 ), [royriojas](https://github.com/royriojas), 09/08/2015 19:20:48
+
+    
 ## v2.1.1
 - **Build Scripts Changes**
   - update to latest simpless to fix bug in read-file dep - [a39f139]( https://github.com/royriojas/bundly/commit/a39f139 ), [royriojas](https://github.com/royriojas), 09/08/2015 19:17:28
