@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v2.1.5
+- **Bug Fixes**
+  - grunt task wrong path to index module - [46cadc4]( https://github.com/royriojas/bundly/commit/46cadc4 ), [royriojas](https://github.com/royriojas), 11/08/2015 11:59:04
+
+    
 ## v2.1.4
 - **Bug Fixes**
   - Add missing clix-logger module - [9bbbe6f]( https://github.com/royriojas/bundly/commit/9bbbe6f ), [royriojas](https://github.com/royriojas), 11/08/2015 11:50:50
