@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v2.1.4
+- **Bug Fixes**
+  - Add missing clix-logger module - [9bbbe6f]( https://github.com/royriojas/bundly/commit/9bbbe6f ), [royriojas](https://github.com/royriojas), 11/08/2015 11:50:50
+
+    
 ## v2.1.3
 - **Features**
   - Add grunt task - [812b1b3]( https://github.com/royriojas/bundly/commit/812b1b3 ), [royriojas](https://github.com/royriojas), 10/08/2015 00:03:03
