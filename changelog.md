@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v2.1.3
+- **Features**
+  - Add grunt task - [812b1b3]( https://github.com/royriojas/bundly/commit/812b1b3 ), [royriojas](https://github.com/royriojas), 10/08/2015 00:03:03
+
+    
 ## v2.1.2
 - **Build Scripts Changes**
   - update to latest simpless to fix bug in write dep - [455f2e0]( https://github.com/royriojas/bundly/commit/455f2e0 ), [royriojas](https://github.com/royriojas), 09/08/2015 19:20:48
