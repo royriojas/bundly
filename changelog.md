@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v2.1.6
+- **Bug Fixes**
+  - add error handler - [885a41a]( https://github.com/royriojas/bundly/commit/885a41a ), [royriojas](https://github.com/royriojas), 11/08/2015 12:07:21
+
+    
 ## v2.1.5
 - **Bug Fixes**
   - grunt task wrong path to index module - [46cadc4]( https://github.com/royriojas/bundly/commit/46cadc4 ), [royriojas](https://github.com/royriojas), 11/08/2015 11:59:04
