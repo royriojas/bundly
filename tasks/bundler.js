@@ -34,7 +34,7 @@ module.exports = function ( grunt ) {
 
     var filesPromise = fileEntries.reduce( function ( seq, data ) {
       return seq.then( function () {
-        var bundly = require( '../index.' ).create( data, opts );
+        var bundly = require( '../index' ).create( data, opts );
 
         bundly.on( 'files-updated', function ( e, args ) {
           var files = args.files || [ ];
