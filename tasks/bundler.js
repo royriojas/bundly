@@ -4,10 +4,10 @@ module.exports = function ( grunt ) {
   grunt.registerMultiTask( 'bundly', function ( watch ) {
     var me = this;
 
-    var logger = require('clix-logger')({
+    var logger = require( 'clix-logger' )( {
       coloredOutput: true,
-      quiet: !grunt.option('verbose')
-    });
+      quiet: !grunt.option( 'verbose' )
+    } );
 
     var done = me.async();
     var opts = me.options( {
@@ -66,10 +66,10 @@ module.exports = function ( grunt ) {
         bundly.on( 'error', function ( e, err ) {
           // error will break the execution
           // important will just wait until next change to attempt to execute the fix
-          var method = opts.watch ? 'log' : 'error';
+          var method = opts.watch ? 'warn' : 'error';
           logger[ method ]( '\n\nerror:' + err.message + '\n\n' );
-          if (method === 'error') {
-            grunt.fatal('bundly error', err);
+          if ( method === 'error' ) {
+            grunt.fatal( 'bundly error', err );
           }
         } );
 
@@ -82,6 +82,8 @@ module.exports = function ( grunt ) {
         // only finish the task if not in watch mode
         done();
       }
+    }, function ( err ) {
+      logger.error( err );
     } );
 
   } );
