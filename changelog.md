@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v2.1.7
+- **Build Scripts Changes**
+  - update clix dep to get nicer log output - [06d1bf6]( https://github.com/royriojas/bundly/commit/06d1bf6 ), [royriojas](https://github.com/royriojas), 11/08/2015 17:33:13
+
+    
 ## v2.1.6
 - **Bug Fixes**
   - add error handler - [885a41a]( https://github.com/royriojas/bundly/commit/885a41a ), [royriojas](https://github.com/royriojas), 11/08/2015 12:07:21
