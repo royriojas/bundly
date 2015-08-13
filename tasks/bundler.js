@@ -4,10 +4,7 @@ module.exports = function ( grunt ) {
   grunt.registerMultiTask( 'bundly', function ( watch ) {
     var me = this;
 
-    var logger = require( 'clix-logger' )( {
-      coloredOutput: true,
-      quiet: !grunt.option( 'verbose' )
-    } );
+    var logger = require( 'clix-logger/logger' );
 
     var done = me.async();
     var opts = me.options( {
