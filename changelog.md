@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v2.1.8
+- **Refactoring**
+  - use more verbose logs - [70a0bb2]( https://github.com/royriojas/bundly/commit/70a0bb2 ), [royriojas](https://github.com/royriojas), 12/08/2015 23:27:21
+
+    
 ## v2.1.7
 - **Build Scripts Changes**
   - update clix dep to get nicer log output - [06d1bf6]( https://github.com/royriojas/bundly/commit/06d1bf6 ), [royriojas](https://github.com/royriojas), 11/08/2015 17:33:13
