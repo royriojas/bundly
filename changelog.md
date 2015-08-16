@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v3.0.1
+- **Features**
+  - properly throw an exception from the catch handler - [6284d2a]( https://github.com/royriojas/bundly/commit/6284d2a ), [royriojas](https://github.com/royriojas), 16/08/2015 14:48:49
+
+    
 ## v3.0.0
 - **Features**
   - Run tasks using clix.getTargets, similar to how grunt run its tasks - [e4cbe97]( https://github.com/royriojas/bundly/commit/e4cbe97 ), [royriojas](https://github.com/royriojas), 16/08/2015 03:11:15
