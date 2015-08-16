@@ -115,13 +115,11 @@ module.exports = {
     }, ES6Promise.resolve() );
 
     p.then( function () {
-      //if ( !opts.watch ) {
       cli.ok( 'bundly done!' );
-    //}
     }, function ( err ) {
-      cli.error( err );
-      throw err;
-    // nodeProcess.exit(1);
+      setTimeout( function () {
+        throw err;
+      }, 0 );
     } );
   }
 };
