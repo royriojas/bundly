@@ -50,6 +50,13 @@ module.exports = {
         alias: 'b',
         type: 'String',
         description: 'The banner to put at the top of the compiled files'
+      },
+      {
+        option: 'target',
+        alias: 't',
+        type: 'String',
+        dependsOn: 'config',
+        description: 'The name of the target to execute from all the posible targets'
       }
     ]
   }
