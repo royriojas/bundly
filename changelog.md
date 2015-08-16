@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v3.0.0
+- **Features**
+  - Run tasks using clix.getTargets, similar to how grunt run its tasks - [e4cbe97]( https://github.com/royriojas/bundly/commit/e4cbe97 ), [royriojas](https://github.com/royriojas), 16/08/2015 03:11:15
+
+    
 ## v2.1.8
 - **Refactoring**
   - use more verbose logs - [70a0bb2]( https://github.com/royriojas/bundly/commit/70a0bb2 ), [royriojas](https://github.com/royriojas), 12/08/2015 23:27:21
