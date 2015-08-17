@@ -90,12 +90,18 @@ module.exports = {
     } else {
       var files = [ ];
       var entry = { };
-      if ( cliOpts._.length > 0 ) {
-        entry.src = [ cliOpts._[ 0 ] ];
+
+      if ( cliOpts._.length === 0 ) {
+        cli.warn( 'Please provide an entry file to browserify. Use -h to show help' );
+        return;
       }
-      if ( cliOpts.outputFile ) {
-        entry.dest = path.resolve( nodeProcess.cwd(), cliOpts.outputFile );
+      if ( !cliOpts.outputFile ) {
+        cli.warn( 'Please provide an output path to save your file. Use -h to show help' );
+        return;
       }
+
+      entry.dest = path.resolve( nodeProcess.cwd(), cliOpts.outputFile );
+      entry.src = [ cliOpts._[ 0 ] ];
 
       var options = extend( true, bundlyArgs.options, cliOpts );
 
@@ -103,7 +109,9 @@ module.exports = {
 
       targets = [
         {
-          files: files, options: options
+          name: 'default',
+          files: files,
+          options: options
         }
       ];
     }
