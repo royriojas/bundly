@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v3.0.2
+- **Features**
+  - use green color for the messages of files created - [a979b1a]( https://github.com/royriojas/bundly/commit/a979b1a ), [royriojas](https://github.com/royriojas), 16/08/2015 18:59:01
+
+    
 ## v3.0.1
 - **Features**
   - properly throw an exception from the catch handler - [6284d2a]( https://github.com/royriojas/bundly/commit/6284d2a ), [royriojas](https://github.com/royriojas), 16/08/2015 14:48:49
