@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v3.0.3
+- **Enhancements**
+  - properly handle case when no parameters are provided - [9dc21b5]( https://github.com/royriojas/bundly/commit/9dc21b5 ), [royriojas](https://github.com/royriojas), 17/08/2015 02:04:15
+
+    
 ## v3.0.2
 - **Features**
   - use green color for the messages of files created - [a979b1a]( https://github.com/royriojas/bundly/commit/a979b1a ), [royriojas](https://github.com/royriojas), 16/08/2015 18:59:01
