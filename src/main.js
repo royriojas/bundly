@@ -32,11 +32,11 @@ module.exports = {
         } );
 
         bundly.on( 'file-write', function ( e, args ) {
-          cli.ok( 'File written', args.dest, 'time required:', args.duration );
+          cli.success( 'File written', args.dest, 'time required:', args.duration );
         } );
 
         bundly.on( 'file-write:minify', function ( e, args ) {
-          cli.ok( 'Minified file written', args.dest, 'time required:', args.duration );
+          cli.success( 'Minified file written', args.dest, 'time required:', args.duration );
         } );
 
         bundly.on( 'watch-mode-on', function () {
