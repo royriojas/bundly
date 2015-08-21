@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v3.0.4
+- **Build Scripts Changes**
+  - include latest clix to fix issue expanding mappings - [5d1c9e3]( https://github.com/royriojas/bundly/commit/5d1c9e3 ), [Roy Riojas](https://github.com/Roy Riojas), 20/08/2015 23:20:21
+
+    
 ## v3.0.3
 - **Enhancements**
   - properly handle case when no parameters are provided - [9dc21b5]( https://github.com/royriojas/bundly/commit/9dc21b5 ), [royriojas](https://github.com/royriojas), 17/08/2015 02:04:15
@@ -101,7 +106,6 @@
 
     
 ## v2.0.1
-#### cache is on by default
 - **Documentation**
   - Update Readme to match the latest configuration (cache is on by default) - [13b4a8f]( https://github.com/royriojas/bundly/commit/13b4a8f ), [royriojas](https://github.com/royriojas), 19/07/2015 05:02:24
 
@@ -137,7 +141,6 @@
     ```
     
 ## v1.1.3
-#### `use-cache` is true by default now
 - **Build Scripts Changes**
   - activating the incremental build by default (`use-cache` is true by default now) - [295d82f]( https://github.com/royriojas/bundly/commit/295d82f ), [royriojas](https://github.com/royriojas), 11/07/2015 17:51:50
 
