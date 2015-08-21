@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v3.0.5
+- **Build Scripts Changes**
+  - Update clix to obtain `ext` and `rename` options - [2513386]( https://github.com/royriojas/bundly/commit/2513386 ), [Roy Riojas](https://github.com/Roy Riojas), 21/08/2015 01:44:53
+
+    
 ## v3.0.4
 - **Build Scripts Changes**
   - include latest clix to fix issue expanding mappings - [5d1c9e3]( https://github.com/royriojas/bundly/commit/5d1c9e3 ), [Roy Riojas](https://github.com/Roy Riojas), 20/08/2015 23:20:21
