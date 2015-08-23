@@ -18,7 +18,7 @@ module.exports = {
         option: 'use-cache',
         alias: 'u',
         type: 'Boolean',
-        default: 'true',
+        //default: 'true',
         description: 'Whether or not to remember the files and contents and only operate on the changed files to create incremental builds. By default is true'
       },
       {
