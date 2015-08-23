@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v3.0.6
+- **Bug Fixes**
+  - setting the cache to false from the config should destroy the cache - [194bf1c]( https://github.com/royriojas/bundly/commit/194bf1c ), [Roy Riojas](https://github.com/Roy Riojas), 23/08/2015 04:53:40
+
+    
 ## v3.0.5
 - **Build Scripts Changes**
   - Update clix to obtain `ext` and `rename` options - [2513386]( https://github.com/royriojas/bundly/commit/2513386 ), [Roy Riojas](https://github.com/Roy Riojas), 21/08/2015 01:44:53
