@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v4.0.1
+- **Bug Fixes**
+  - make sure each bundler instance has an id to prevent it from messing with the file cache - [905d7b9]( https://github.com/royriojas/bundly/commit/905d7b9 ), [royriojas](https://github.com/royriojas), 24/08/2015 15:28:05
+
+    
 ## v4.0.0
 - **Features**
   - Use persitify to clearly manage the persistence of the cache - [690cd54]( https://github.com/royriojas/bundly/commit/690cd54 ), [Roy Riojas](https://github.com/Roy Riojas), 24/08/2015 03:03:42
