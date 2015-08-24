@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v4.0.0
+- **Features**
+  - Use persitify to clearly manage the persistence of the cache - [690cd54]( https://github.com/royriojas/bundly/commit/690cd54 ), [Roy Riojas](https://github.com/Roy Riojas), 24/08/2015 03:03:42
+
+    
 ## v3.0.6
 - **Bug Fixes**
   - setting the cache to false from the config should destroy the cache - [194bf1c]( https://github.com/royriojas/bundly/commit/194bf1c ), [Roy Riojas](https://github.com/Roy Riojas), 23/08/2015 04:53:40
