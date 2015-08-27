@@ -66,7 +66,7 @@
     "read-file": "^0.1.2",
     "require-arr": "^1.0.7",
     "shimixify": "^1.1.5",
-    "simpless": "^3.0.2",
+    "simplessy": "^0.1.0",
     "uglify-js": "^2.4.23",
     "write": "^0.2.0"
   },
