@@ -58,7 +58,7 @@
     "console-filter": "^1.1.5",
     "consoleify": "^1.1.3",
     "dispatchy": "^1.0.3",
-    "dot": "^1.0.3",
+    "dot-ify": "^0.1.0",
     "es6-promise": "^2.3.0",
     "extend": "^3.0.0",
     "moment": "^2.10.3",
