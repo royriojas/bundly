@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v4.1.0
+- **Refactoring**
+  - move dot-ify to its own module - [1880386]( https://github.com/royriojas/bundly/commit/1880386 ), [royriojas](https://github.com/royriojas), 26/08/2015 18:27:28
+
+    
 ## v4.0.1
 - **Bug Fixes**
   - make sure each bundler instance has an id to prevent it from messing with the file cache - [905d7b9]( https://github.com/royriojas/bundly/commit/905d7b9 ), [royriojas](https://github.com/royriojas), 24/08/2015 15:28:05
