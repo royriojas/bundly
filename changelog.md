@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v4.2.1
+- **Build Scripts Changes**
+  - Update simplessy to obtain scoped modules - [d87537a]( https://github.com/royriojas/bundly/commit/d87537a ), [Roy Riojas](https://github.com/Roy Riojas), 31/08/2015 03:25:26
+
+    
 ## v4.2.0
 - **Refactoring**
   - move simplessy to its own module - [8f78e0b]( https://github.com/royriojas/bundly/commit/8f78e0b ), [royriojas](https://github.com/royriojas), 27/08/2015 01:44:22
