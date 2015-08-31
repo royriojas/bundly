@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v4.2.2
+- **Bug Fixes**
+  - Handle transforms that are plain functions - [1166aff]( https://github.com/royriojas/bundly/commit/1166aff ), [Roy Riojas](https://github.com/Roy Riojas), 31/08/2015 03:49:51
+
+    
 ## v4.2.1
 - **Build Scripts Changes**
   - Update simplessy to obtain scoped modules - [d87537a]( https://github.com/royriojas/bundly/commit/d87537a ), [Roy Riojas](https://github.com/Roy Riojas), 31/08/2015 03:25:26
