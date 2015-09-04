@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v4.2.3
+- **Bug Fixes**
+  - Make sure deleted modules are not kept in browserify cache - [0e3b184]( https://github.com/royriojas/bundly/commit/0e3b184 ), [royriojas](https://github.com/royriojas), 04/09/2015 13:18:25
+
+    
 ## v4.2.2
 - **Bug Fixes**
   - Handle transforms that are plain functions - [1166aff]( https://github.com/royriojas/bundly/commit/1166aff ), [Roy Riojas](https://github.com/Roy Riojas), 31/08/2015 03:49:51
