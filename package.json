@@ -62,7 +62,7 @@
     "es6-promise": "^2.3.0",
     "extend": "^3.0.0",
     "moment": "^2.10.3",
-    "persistify": "^0.1.6",
+    "persistify": "^0.2.0",
     "read-file": "^0.1.2",
     "require-arr": "^1.0.7",
     "shimixify": "^1.1.5",
