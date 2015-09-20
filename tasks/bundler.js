@@ -14,18 +14,9 @@ module.exports = function ( grunt ) {
       separator: '\n\n',
       useCache: true,
       preBundleCB: function () {}
-    //noWrite: true
     } );
 
     var fileEntries = me.files || [ ];
-
-    if ( opts.consoleifyEnabled ) {
-      var oldCallback = opts.preBundleCB;
-      opts.preBundleCB = function ( b ) {
-        b.transform( require( 'consoleify' ) );
-        oldCallback.apply( null, arguments );
-      };
-    }
 
     opts.banner = grunt.template.process( opts.banner );
 
