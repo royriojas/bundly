@@ -55,7 +55,7 @@
     "es6-promise": "^2.3.0",
     "extend": "^3.0.0",
     "moment": "^2.10.6",
-    "persistify": "^0.2.0",
+    "persistify": "^0.3.0",
     "uglify-js": "^2.4.24",
     "write": "^0.2.1"
   },
