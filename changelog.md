@@ -1,5 +1,10 @@
 
 # bundly - Changelog
+## v5.1.0
+- **Enhancements**
+  - Add neverCache option and make the cache to be recreated when options change - [6c89456]( https://github.com/royriojas/bundly/commit/6c89456 ), [royriojas](https://github.com/royriojas), 22/09/2015 02:43:01
+
+    
 ## v5.0.0
 - **Enhancements**
   - transforms are not longer specified by bundly, it is just a wrapper over persistify - [b4b6b8f]( https://github.com/royriojas/bundly/commit/b4b6b8f ), [royriojas](https://github.com/royriojas), 20/09/2015 11:49:48
