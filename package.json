@@ -57,7 +57,7 @@
     "moment": "^2.10.6",
     "persistify": "^1.0.0",
     "uglify-js": "^2.4.24",
-    "write": "^0.2.1"
+    "write": "^2.0.0"
   },
   "changelogx": {
     "ignoreRegExp": [
