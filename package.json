@@ -56,7 +56,7 @@
     "extend": "^3.0.0",
     "moment": "^2.10.6",
     "persistify": "^1.0.0",
-    "uglify-js": "^2.4.24",
+    "uglify-js": "^3.14.3",
     "write": "^0.2.1"
   },
   "changelogx": {
